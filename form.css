@@ -1,0 +1,121 @@
+
+  body{
+  text-align:center;
+  margin: auto;
+  background-color: #F7F0DA;
+  font-family: "Noto Sans TC", "Microsoft JhengHe";
+  }
+
+h2{
+  color:#73991F;
+  /*font-size: 2rem;*/
+  /*margin: 1.8em;*/
+}
+
+form{
+  text-align:center;
+  width: 85%;
+  height: 700px;
+  margin-left: 30px;
+  font-family: "Noto Sans TC", "Microsoft JhengHe";
+}
+
+#topic{
+  background-color:#677F45;
+  width:100%;
+  height:100%;
+}
+
+input, select{
+    background-color: #F8F8F8;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    width:100%;
+    border: none;
+    height:2em;
+    margin:0em auto 0.8em;
+    font-family: "Noto Sans TC", "Microsoft JhengHe";
+    /*font-size: 2em;*/
+}
+
+input:valid, select:valid, textarea:valid{
+    background-color:#efe9c2;
+}
+
+input[type=submit]{
+    width:100%;
+    height:2.5em;
+    margin:0em auto 12em;
+    color:white;
+    background-color:#42602D;
+    font-family: "Noto Sans TC", "Microsoft JhengHe";
+}
+
+.company{
+  width:62%;
+}
+.position{
+  width:70%;
+}
+.category{
+  width:68%
+}
+.during{
+  width:35%;
+}
+.wage{
+  width:17.5%;
+}
+.rent{
+  width:18%;
+}
+.dayoff{
+  width:17%;
+}
+
+
+input{
+  background-color: #F8F8F8;
+}
+select{
+  color:#8D8D8D;
+}
+
+#comment{
+  background-color: #F8F8F8;
+  color:#8D8D8D;
+  font-family: "Noto Sans TC", "Microsoft JhengHe";
+  /*font-size: 2em;*/
+  margin:0em auto 0.7em;
+  width:98%;
+}
+
+input[type=date]{
+  background-color: #F8F8F8;
+  color:#8D8D8D;
+  font-family: "Noto Sans TC", "Microsoft JhengHe";
+}
+
+.wordcss{
+  color:#8D8D8D;
+  /*font-size: 2em;*/
+  margin:0em;
+}
+
+option{
+  font-size:10px;
+}
+#pinoy{
+    width: 45%;
+    margin: 0.5em;
+}
+#back{
+    float: left;
+    width: 15%;
+    margin: 0.5em;
+}
+#login{
+    float: right;
+    width: 15%;
+    margin: 0.5em;
+}

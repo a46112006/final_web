@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Pinoy Share Platfrom</title>
+        <link rel=stylesheet media="screen" href="form.css">
+
+    </head>
+    <body>
+        <div id="topic">
+          <img id="pinoy" src="img/top.png" alt="pinoy">
+          <img id="login" src="img/login.png" alt="login">
+          <img id="back" src="img/back.png" alt="back">
+          </div>
+          <h2>Share Your Work Experience!</h2>
+        <form>
+
+            <span class="wordcss">Company Name :</span><input name="company" class="company" type="text" required ></br>
+            <span class="wordcss">Job Position :</span><input name="jobPos" class="position" type="text" required >
+
+            <span class="wordcss">Job Category :</span>
+            <select name="jobType" class="category" required>
+            <option value="">Please select</option>
+            <option value="factoryworker">Factory Worker</option>
+            <option value="fisherman">Fisherman</option>
+            <option value="household">Household worker</option>
+            </select></br>
+
+            <span class="wordcss">During :</span>
+            <input name="startTime" type="date" class="during" required placeholder="Start working day">
+            <span class="wordcss">&nbsp; ~ &nbsp;</span>
+            <input name="endTime" type="date" class="during" required placeholder="End day">
+
+            <span class="wordcss">Wage :</span>
+            <input name="wage" class="wage" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; NTD&nbsp; </span>
+            <select name="wagePer" class="wage" required>
+            <option value="">per_</option>
+            <option value="day">/Day</option>
+            <option value="week">/Week</option>
+            <option value="month">/Month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select name="wageRate" class="wage"required>
+            <option value="">_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            <span class="wordcss">Rent :</span>
+            <input name="rent" class="rent" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; NTD&nbsp; </span>
+            <select name="rentPer" class="rent" required>
+            <option value="">per_</option>
+            <option value="day">/Day</option>
+            <option value="week">/Week</option>
+            <option value="month">/Month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select name="rentRate" class="rent" required>
+            <option value="" >_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            <span class="wordcss">Day-off :</span>
+            <input name="dayOff" class="dayoff" type="number" required placeholder=" 0 ">
+            <span class="wordcss">&nbsp; Day&nbsp; </span>
+            <select name="dayOffPer" class="dayoff" required>
+            <option value="">per_</option>
+            <option value="week">/week</option>
+            <option value="month">/month</option>
+            </select>
+
+            <span class="wordcss"> &nbsp;Rate :</span>
+            <select name="dayRate" class="dayoff" required>
+            <option value="" >_/5</option>
+            <option value="1">1/5</option>
+            <option value="2">2/5</option>
+            <option value="3">3/5</option>
+            <option value="4">4/5</option>
+            <option value="5">5/5</option>
+            </select></br>
+
+            </br>
+            <textarea name="comment" cols="51" rows="7" id="comment" placeholder="Comment :"></textarea>
+            <input type="submit" value="Submit" id="submit">
+
+        </form>
+    </body>
+</html>
