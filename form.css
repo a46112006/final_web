@@ -85,7 +85,7 @@ select{
   background-color: #F8F8F8;
   color:#8D8D8D;
   font-family: "Noto Sans TC", "Microsoft JhengHe";
-  /*font-size: 2em;*/
+  font-size: 1em;
   margin:0em auto 0.7em;
   width:98%;
 }
