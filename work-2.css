@@ -1,0 +1,71 @@
+body{
+    background-color: #F7F0DA;
+    margin: auto;
+}
+#title{
+   background-color: #677F45;
+   width: 100%;
+   margin:0;
+}
+#pinoy{
+    width: 45%;
+    margin: 0.5em;
+}
+#post{
+    float: left;
+    width: 25%;
+    margin: 0.5em;
+}
+#login{
+    float: right;
+    width: 15%;
+    margin: 0.5em;
+}
+#subtitle{
+    text-align: center;
+    font-size: 1.5em;
+    color: #73991F;
+}
+#bigDiv{
+    display: block;
+    font-weight:bold;
+    margin: 3%;
+}
+/*#bg{
+  width:100%;
+}*/
+.com{
+    display: inline;
+}
+
+.comTitle,.jobType,.startDay,.wage,.rent,.dayOff,.comment,.commentCon{
+    position: relative;
+    padding-left: 0%;
+    font-size: 2.5em;
+    color:#44433F;
+    font-family: "Noto Sans TC", "Microsoft JhengHei","Microsoft YaHei","SimHei","SimSun";
+    
+}
+.wageRate,.rentRate,.dayOffRate,.subTime,.rate{
+    position: relative;
+    color:#44433F;
+    float:right;
+    font-size: 1em;
+    font-family: "Noto Sans TC", "Microsoft JhengHei","Microsoft YaHei","SimHei","SimSun";
+    padding:0.5em;
+}
+.five{
+    font-size: 0.9em;
+}
+.subTime{
+    color: #677F45;
+}
+#smallDiv{
+padding:1em;
+border: solid;
+border-color: #677F45;
+border-width: 5px;
+background-color:#FBFCF0;
+/*border-style:hidden;*/
+}
+
